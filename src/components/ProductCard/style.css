@@ -1,0 +1,64 @@
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .product-card  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .product-card .product-img {
+    height: 200px;
+    width: 200px;
+  }
+  .product-card .product-description {
+    height: 96px;
+  }
+  .product-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    height: 69.6px;
+  }
+  
+  .product-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .product-card .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    bottom: 0;
+  }
+  
+  .product-card .like-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .product-card .like-btn.liked {
+    color: red;
+  }
+  
+  .product-card .delete-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .product-card .edit-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
