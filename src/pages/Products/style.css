@@ -45,6 +45,7 @@
     border: 1px solid #ccc;
     background-color: #f9f9f9;
     cursor: pointer;
+    color: black;
   }
   
   .pagination button.active {
