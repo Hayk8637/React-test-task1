@@ -30,6 +30,7 @@
     cursor: pointer;
     background-color: #007bff;
     border-radius: 5px;
+    color: black;
   }
 
   .pagination {
